@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InvalidMatrixOperationException.cs" />
     <Compile Include="MathMatrix.cs" />
+    <Compile Include="MatrixOperationException.cs" />
+    <Compile Include="MatrixSizeMismatchException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
