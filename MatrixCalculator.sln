@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixCalculator", "MatrixCalculator\MatrixCalculator.csproj", "{802AF033-7121-4B95-A0E6-DB4862420CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixCalculator.Tests", "MatrixCalculator.Tests\MatrixCalculator.Tests.csproj", "{E64CE2A1-22FE-4F95-B8D5-637667CE8CC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{802AF033-7121-4B95-A0E6-DB4862420CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802AF033-7121-4B95-A0E6-DB4862420CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802AF033-7121-4B95-A0E6-DB4862420CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802AF033-7121-4B95-A0E6-DB4862420CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E64CE2A1-22FE-4F95-B8D5-637667CE8CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64CE2A1-22FE-4F95-B8D5-637667CE8CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64CE2A1-22FE-4F95-B8D5-637667CE8CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64CE2A1-22FE-4F95-B8D5-637667CE8CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78A709E0-A754-4604-9A41-0FFEF19583D0}
+	EndGlobalSection
+EndGlobal
