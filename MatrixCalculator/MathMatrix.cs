@@ -146,7 +146,10 @@ public class MathMatrix : ICloneable, IComparable<MathMatrix>
             {
                 for (int column = 0, subColumn = 0; column < _size; ++column)
                 {
-                    if (column == rowDeterminant) continue;
+                    if (column == rowDeterminant)
+                    {
+                        continue;
+                    }
                     subMatrix[row - 1, subColumn] = _matrix[row, column];
                     subColumn++;
                 }
@@ -170,6 +173,7 @@ public class MathMatrix : ICloneable, IComparable<MathMatrix>
             for (int column = 0; column < _size; ++column)
             {
                 int[,] subMatrix = new int[_size - 1, _size - 1];
+                
                 for (int rowDeterminant = 0, subRow = 0; rowDeterminant < _size; ++rowDeterminant)
                 {
                     if (rowDeterminant == row) continue;
